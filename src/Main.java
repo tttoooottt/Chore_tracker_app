@@ -4,7 +4,7 @@ public class Main {
         Household mainHousehold = new Household("Main House");
 
         // Create a task
-        Task dishwashing = new Task("Do the dishes", "Put the tablet in and run Eco mode");
+        Task dishwashing = new Task("Do the dishes", "Put the tablet in and run Eco mode", false);
 
         // Add the task to the household list
         mainHousehold.addTask(dishwashing);
